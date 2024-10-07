@@ -1,5 +1,6 @@
 import { User } from '../../Interfaces/User'
 import { Box, Typography, Button } from '@mui/material';
+import logo from '../../assets/logo2.png';
 
 const TopBar: React.FC<{ user: User, handleLogout: () => void }> = ({ user, handleLogout }) => {
   return (
@@ -15,9 +16,11 @@ const TopBar: React.FC<{ user: User, handleLogout: () => void }> = ({ user, hand
         marginBottom: '20px',
       }}
     >
-      <Typography sx={{ marginTop: '10px'}} variant="h4" align="center" color="white" fontSize="3rem">
-        Eldar Blog
-      </Typography>
+        <img 
+            src={logo} 
+            alt="Logo" 
+            style={{ width: '250px', height: 'auto', position: 'relative' }} 
+          /> 
       <div className="responsiveMin" >
         <Button
           title="LOG OUT"
