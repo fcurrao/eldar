@@ -6,7 +6,7 @@ import NotificationAlertGeneral from '../Components/Toasts/NotificationAlertGene
 import { loginUser } from '../api/auth.tsx'; 
 import { TextField, Button, Typography, Container, Box, Grid, IconButton, InputAdornment } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -58,18 +58,15 @@ const Login: React.FC = () => {
           borderRadius: '8px',
           padding: '2rem',
           boxShadow: 3,
-          background: "linear-gradient(72deg, #5364a2fa, #504d6054)",
+          background: "#282936",
           width: '90%',
         }}
       >
-        <Typography sx={{ display:'flex', alignItems:'center', fontFamily:'inherit', fontSize:'xxx-large',fontWeight:'600'}} variant="h4" component="h1" color="white" gutterBottom>
-          <img 
+         <img 
             src={logo} 
             alt="Logo" 
-            style={{ width: '100px', height: '100px', position: 'relative' }} 
-          />
-          Eldar
-        </Typography>
+            style={{ width: '80%', height: '100px', position: 'relative' }} 
+          /> 
         <form onSubmit={handleSubmit} style={{ width: '100%' }}>
           <Grid container spacing={2}>
             <Grid item xs={12}>
@@ -81,10 +78,10 @@ const Login: React.FC = () => {
                 margin="normal"
                 variant="outlined"
                 InputProps={{
-                  style: { color: 'black', backgroundColor: '#f0f0f0' },
+                  style: { color: 'white', backgroundColor: '#1d1e27' },
                 }}
                 InputLabelProps={{
-                  style: { color: '#62acf6ad', fontWeight: 'bold' },
+                  style: { color: '#1976d2', fontWeight: 'bold' },
                 }}
               />
             </Grid>
@@ -98,10 +95,10 @@ const Login: React.FC = () => {
                 margin="normal"
                 variant="outlined"
                 InputProps={{
-                  style: { color: 'black', backgroundColor: '#f0f0f0' },
+                  style: { color: 'white', backgroundColor: '#1d1e27' },
                   endAdornment: (
-                    <InputAdornment position="end">
-                      <IconButton
+                    <InputAdornment position="end" color="white">
+                      <IconButton 
                         onClick={() => setShowPassword(prev => !prev)}
                         edge="end"
                       >
@@ -111,7 +108,7 @@ const Login: React.FC = () => {
                   ),
                 }}
                 InputLabelProps={{
-                  style: { color: '#62acf6ad', fontWeight: 'bold' },
+                  style: { color: '#1976d2', fontWeight: 'bold' },
                 }}
               />
             </Grid>
