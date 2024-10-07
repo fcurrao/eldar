@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  background: linear-gradient(101deg, rgba(0, 0, 0, 0.777), #454444)
+  background: linear-gradient(101deg, rgb(0 0 0 / 86%), #000000)
 }
 
 h1 {
