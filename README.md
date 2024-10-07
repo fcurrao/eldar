@@ -1,9 +1,6 @@
 
 # Eldar
 
-### Deploy
-[eldar](https://eldar-fcurrao.netlify.app/)
-
 
 ### Objetivo
 Facilitar una aplicación web   con autenticación avanzada, manejo de roles, y una arquitectura optimizada para proyectos escalables.
