@@ -50,7 +50,7 @@ const Post: React.FC<PostProps> = ({ post, userRole, onEditClick, onDeleteClick 
           </Button>
           <Button
             variant="contained"
-            color="primary"
+            color="secondary"
             sx={{ margin: '5px' }}
             onClick={() => onDeleteClick(post)}
           >
