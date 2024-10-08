@@ -97,14 +97,16 @@ const Login: React.FC = () => {
                 InputProps={{
                   style: { color: 'white', backgroundColor: '#1d1e27' },
                   endAdornment: (
-                    <InputAdornment position="end" color="white">
-                      <IconButton 
-                        onClick={() => setShowPassword(prev => !prev)}
-                        edge="end"
-                      >
-                        {showPassword ? <VisibilityOff /> : <Visibility />}  
-                      </IconButton>
-                    </InputAdornment>
+                    <InputAdornment position="end" style={{color:"white"}}>
+                    <IconButton 
+                      onClick={() => setShowPassword(prev => !prev)}
+                      edge="end" 
+                    >
+                      {showPassword 
+                        ? <VisibilityOff style={{ color: "white" }} /> 
+                        : <Visibility style={{ color: "white" }} />}  
+                    </IconButton>
+                  </InputAdornment>
                   ),
                 }}
                 InputLabelProps={{
