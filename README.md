@@ -103,19 +103,7 @@ El proyecto es una aplicación web desarrollada en React con TypeScript que impl
 ### Imagenes de Uso
 
 **Web**
-![Web](https://i.postimg.cc/cJzjgdmW/app.png)
-
-**Login**
-![Login](https://i.postimg.cc/QC3T0Wbq/login.png)
-
-**Home**
-![Home](https://i.postimg.cc/ncnmmBMF/home.png)
-
-**Create**
-![Create](https://i.postimg.cc/zDCW30z2/create.png)
-
-**Edit**
-![Edit](https://i.postimg.cc/NFkrVfCv/edit.png)
+https://i.postimg.cc/25N8PDdN/web.png
 
 
 
